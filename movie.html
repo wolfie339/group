@@ -1,0 +1,54 @@
+<html>
+<head>
+       <title>Movie Player</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <header>
+       
+        <div class="logo">KNIXIE</div>
+        <h3>Movie Player</h3>
+    <nav class="nav">
+      <ul>
+        <li><a href="ott.html">Home</a></li>
+        <li><a href="tvshow.html">TV Shows</a></li>
+        <li><a href="anime.html">Anime</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+
+        
+
+    </header>
+
+    <div class="container">
+        <div class="player">
+            <video id="moviePlayer" controls>
+                <source id="movieSource" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="movie-list">
+            <h2>Available Movies</h2>
+            <ul>
+                <li><button class="movie-btn" onclick="changeMovie('Shershah.mp4')">SHERSHAAH</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('SitaRaman.mp4')">SITA RAMAN</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('KabirSingh.mp4')">KABIR SINGH</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('HiNanna.mp4')">HI NANNA!</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('Pushpa.mp4')">PUSHPA</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('Sambhaji.mp4')">SAMBHAJI</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('phulvanti.mp4')">PHULVANTI</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('SPIDER-MAN.mp4')">SPIDER MAN</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Movie Player. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

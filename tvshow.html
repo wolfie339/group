@@ -1,0 +1,51 @@
+<html>
+<head>
+       <title>TvShow Player</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <header>
+        
+        <div class="logo">KNIXIE</div>
+        <h3>TvShow Player</h3>
+    <nav class="nav">
+      <ul>
+        <li><a href="ott.html">Home</a></li>
+        <li><a href="movie.html">Movies</a></li>
+        <li><a href="anime.html">Anime</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <div class="container">
+        <div class="player">
+            <video id="moviePlayer" controls>
+                <source id="movieSource" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="movie-list">
+            <h2>Available TvShows</h2>
+            <ul>
+                <li><button class="movie-btn" onclick="changeMovie('StrangerThings.mp4')">STRANGER THINGS</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('ShubhVivah.mp4')">SHUBVIVAH</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('Mirzapur.mp4')">MIRZAPUR</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('allofusdead.mp4')">All Of Us Are Dead</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('FamilyMan.mp4')">THE FAMILY MAN</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('VampireDiaries.mp4')">THE VAMPIRE DIARIES</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('TeenWolf.mp4')">TEEN WOLF</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('BreakingBad.mp4')">BREAKING BAD</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Movie Player. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

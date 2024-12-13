@@ -1,0 +1,49 @@
+<html>
+<head>
+       <title>Anime Player</title>
+    <link rel="stylesheet" href="movie.css">
+</head>
+<body>
+    <header>
+        <div class="logo">KNIXIE</div>
+        <h3>Anime Player</h3>
+    <nav class="nav">
+      <ul>
+        <li><a href="ott.html">Home</a></li>
+        <li><a href="tvshow.html">TV Shows</a></li>
+        <li><a href="movie.html">Movies</a></li>
+         <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+    </header>
+
+    <div class="container">
+        <div class="player">
+            <video id="moviePlayer" controls>
+                <source id="movieSource" src="" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+
+        <div class="movie-list">
+            <h2>Available Anime</h2>
+            <ul>
+                <li><button class="movie-btn" onclick="changeMovie('ONEPIECE.mp4')">ONEPIECE</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('STEINSGATE.mp4')">STEINSGATE</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('bleach.mp4')">BLEACH</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('Horimiya.mp4')">HORIMIYA</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('HAIKYU.mp4')">HAIKYU</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('NARUTO.mp4')">NARUTO</button></li>
+                <li><button class="movie-btn" onclick="changeMovie('REZERO.mp4')">REZERO</button></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Movie Player. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

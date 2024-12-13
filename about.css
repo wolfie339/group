@@ -1,0 +1,80 @@
+body{
+    background-image : url("about.jpg"); 
+      background-size : cover; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+      background-position: center; 
+  
+  
+  
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fef9e7;
+      
+    }
+    
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #4a89f6;
+      color: white;
+      padding: 10px 20px;
+    }
+    .nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1em;
+      padding: 0;
+    }
+    
+    .nav a {
+      color: white;
+      text-decoration: none;
+    }
+     
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+    }
+    
+    .navbar .logo {
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 15px;
+    }
+    
+    .navbar ul li a {
+      color: white;
+      text-decoration: none;
+    } 
+    
+    .page-header {
+      text-align: center;
+      padding: 50px 0;
+      font-size: 2rem;
+      color:rgb(241, 235, 235)
+    }
+    
+    
+  
+    p{
+      font-size:x-large;
+      font-weight: 200;
+      font-style: italic;
+      color: white;
+    }
+       footer{
+        color: red;
+        font-size: larger;
+        font-weight: 300;
+       }
